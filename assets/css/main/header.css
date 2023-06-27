@@ -1,47 +1,50 @@
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px;
-    margin: 0 80px;
-}
-.header__logo{
-    display: flex;
-    align-items: center;
+@media screen {
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px;
+        margin: 0 80px;
+    }
+    .header__logo{
+        display: flex;
+        align-items: center;
+    }
+    
+    .header__search{
+        background: #f5f5f5;
+        padding: 12px;
+        margin-left: 24px;
+        border-radius: 24px;
+    }
+    .header__search--input{
+        width: 400px;
+        border: none;
+        background: transparent;
+    }
+    .header__search--input:focus-visible{
+        outline: none;
+    }
+    
+    .header__login{
+        text-decoration: none;
+        border: 1px solid #2A7AE4;
+        padding: 10px 64px;
+        border-radius: 4px;
+        color: #2A7AE4;
+    }
+    .header__textName{
+        font-weight: bold;
+    }
+    .alura{
+        color: #2A7AE4;
+    }
+    .geek{
+        color: #464646;
+    }
 }
 
-.header__search{
-    background: #f5f5f5;
-    padding: 12px;
-    margin-left: 24px;
-    border-radius: 24px;
-}
-.header__search--input{
-    width: 300px;
-    border: none;
-    background: transparent;
-}
-.header__search--input:focus-visible{
-    outline: none;
-}
-
-.header__login{
-    text-decoration: none;
-    border: 1px solid #2A7AE4;
-    padding: 10px 64px;
-    border-radius: 4px;
-    color: #2A7AE4;
-}
-.header__textName{
-    font-weight: bold;
-}
-.alura{
-    color: #2A7AE4;
-}
-.geek{
-    color: #464646;
-}
-@media (max-width: 640px) {
+@media (max-width: 580px) {
     .header__search--input{
         display: none;
     }
@@ -53,13 +56,16 @@
         padding: 10px 52px;
     }
 }
-@media (min-width:641px) {
+@media (max-width:641px) {
     .header__search--input{
-        width: 200px;
         border: none;
+        width: 200px;
     }
     .header{
         
         margin: 0 40px;
+    }
+    .fa-solid{
+        display: none;
     }
 }

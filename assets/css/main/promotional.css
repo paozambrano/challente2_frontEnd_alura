@@ -1,0 +1,52 @@
+.promotional{
+    background-image: url('../../img/Hero.png');
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.promotional__title{
+    margin-left: 80px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 52px;
+}
+.promotional__description{
+    margin-left: 80px;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+.promotional__button{
+    margin-left: 80px;
+    padding-bottom: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    background: #2A7AE4;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 24px;
+    border-radius: 2px;
+}
+
+@media (max-width: 640px) {
+    .promotional{
+        background-size: cover;
+        width: 100%;
+    }
+    .promotional__title, .promotional__description, .promotional__button{
+        margin-left: 24px;
+        font-weight: normal;
+    }
+
+}
+@media (max-width:768px) {
+    .promotional{
+        width: 100%;
+    }
+    
+}
