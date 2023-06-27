@@ -1,0 +1,86 @@
+
+.footer__logo{
+    display: flex;
+    align-items: center;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #EAF2FD;
+    padding: 24px 80px;;
+    
+}
+.footer__textName{
+    font-weight: bold;
+}
+.contact__links{
+    list-style: none;
+    margin-bottom: 32px;
+    
+}
+.contact__links--buttons{
+    text-decoration: none;
+    color: #464646;
+}
+.contact__links--buttons:hover{
+    color: #2A7AE4;
+}
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    & form{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        
+    }
+}
+.form__text{
+    color: #464646;
+    font-weight: bold;
+}
+.form__name{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    margin-bottom: 16px;
+    color: #464646;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    & label{
+        padding: 8px;
+    }
+}
+.name{
+    border: transparent;
+}
+textarea{
+    margin-bottom: 16px;
+    resize: none;
+    border: transparent;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+.name:focus-visible, textarea:focus-visible{
+    outline: none;
+    border-bottom: 1px solid #2A7AE4;
+}
+.form__button{
+    width: 150px;
+    padding: 16px 0;
+    background: #2A7AE4;
+    border: 1px solid transparent;
+    color: #ffffff;
+}
+.form__button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+
+}
+.footer__information{
+    text-align: center;
+    color: #464646;
+}
