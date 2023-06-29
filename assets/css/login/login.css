@@ -1,0 +1,42 @@
+.login{
+    display: flex;
+    justify-content: center;
+    background: #E5E5E5;
+}
+.login__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 32px 0;
+}
+.login__title{
+    text-align: center;
+    font-weight: bold;
+    color: #464646;
+}
+.login__email, .login__password{
+    padding: 16px 8px;
+    width: 300px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2); 
+    margin: 16px 0;
+}
+.login__email:focus-visible, .login__password:focus-visible{
+    outline: none;
+    border-bottom: 1px solid #2A7AE4;
+}
+.login__button{
+    
+    padding: 16px 0;
+    background: #2A7AE4;
+    border: 1px solid transparent;
+    color: #ffffff;
+    margin: 16px 0;
+}
+.login__button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+}
