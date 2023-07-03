@@ -1,0 +1,15 @@
+.products__items__img{
+    margin-bottom: 24px;
+}
+.products__more{
+    padding: 16px;
+    background: #2A7AE4;
+    color: #ffffff;
+    border: 1px solid transparent;
+}
+.products__more:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+}
