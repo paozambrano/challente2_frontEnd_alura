@@ -50,6 +50,7 @@
     border-radius: 4px;
     & label{
         padding: 8px;
+        color: #A2A2A2;
     }
 }
 .name{
@@ -62,18 +63,18 @@ textarea{
     box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
-.name:focus-visible, textarea:focus-visible{
+input:focus-visible, textarea:focus-visible{
     outline: none;
     border-bottom: 1px solid #2A7AE4;
 }
-.form__button{
+button{
     width: 150px;
     padding: 16px 0;
     background: #2A7AE4;
     border: 1px solid transparent;
     color: #ffffff;
 }
-.form__button:hover{
+button:hover{
     cursor: pointer;
     background-color: #ffffff;
     color: #2A7AE4;

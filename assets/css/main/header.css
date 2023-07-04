@@ -24,6 +24,7 @@
     }
     .header__search--input:focus-visible{
         outline: none;
+        border: none;
     }
     
     .header__login{

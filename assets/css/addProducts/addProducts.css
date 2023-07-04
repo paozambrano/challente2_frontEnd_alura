@@ -1,0 +1,35 @@
+.addProduct{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #f5f5f5;
+    padding: 40px 0;
+}
+.add__title{
+    
+    margin-bottom: 16px;
+    color: #464646;
+    font-weight: bold;
+}
+.add__form{
+    width: 500px
+}
+.form__item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    background: #ffffff;
+    border-radius: 4px;
+    & input{
+        border: none;
+        border-radius: 8px;
+    }
+    & label{
+        padding: 8px;
+        color: #A2A2A2;
+    }
+}
+.add__button{
+    width: 100%; 
+    padding: 8px 0;
+}

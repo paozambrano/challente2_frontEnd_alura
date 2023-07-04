@@ -22,21 +22,3 @@
     box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2); 
     margin: 16px 0;
 }
-.login__email:focus-visible, .login__password:focus-visible{
-    outline: none;
-    border-bottom: 1px solid #2A7AE4;
-}
-.login__button{
-    
-    padding: 16px 0;
-    background: #2A7AE4;
-    border: 1px solid transparent;
-    color: #ffffff;
-    margin: 16px 0;
-}
-.login__button:hover{
-    cursor: pointer;
-    background-color: #ffffff;
-    color: #2A7AE4;
-    border: 1px solid #2A7AE4;
-}
