@@ -1,0 +1,33 @@
+.detailed{
+    background: #f5f5f5;
+
+}
+.detailed__container{
+    display: flex;
+    align-items: center;
+    padding: 80px 80px 36px;
+}
+.detailed__img{
+    height: 400px;
+    width: 500px;
+}
+.detailed__text{
+    padding: 30px;
+    width: 50%;
+}
+.deitaled__title{
+    font-size: 48px;
+    color: #464646;
+}
+.detailed__price{
+    font-weight: bold;
+}
+.detailed__description{
+    color: #464646;
+}
+.similarProducts{
+    padding: 12px 80px;
+    & h2{
+        color: #464646;
+    }
+}
