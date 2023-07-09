@@ -22,7 +22,6 @@
 }
 .promotional__button{
     margin-left: 80px;
-    padding-bottom: 24px;
     color: #ffffff;
     text-decoration: none;
     background: #2A7AE4;
@@ -31,6 +30,13 @@
     padding: 10px;
     margin-bottom: 24px;
     border-radius: 2px;
+    border:1px solid transparent ;
+}
+.promotional__button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
 }
 
 @media (max-width: 640px) {

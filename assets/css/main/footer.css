@@ -1,4 +1,10 @@
 
+.logo__links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 40%;
+}
 .footer__logo{
     display: flex;
     align-items: center;
@@ -14,7 +20,7 @@
 .footer__textName{
     font-weight: bold;
 }
-.contact__links{
+.contact__link{
     list-style: none;
     margin-bottom: 32px;
     
@@ -29,12 +35,13 @@
 .contact__form{
     display: flex;
     flex-direction: column;
-    & form{
-        display: flex;
-        flex-direction: column;
-        width: 500px;
-        
-    }
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
 }
 .form__text{
     color: #464646;
@@ -84,4 +91,37 @@ button:hover{
 .footer__information{
     text-align: center;
     color: #464646;
+}
+
+@media (max-width: 425px) {
+    .logo__links{
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer__logo{
+        align-self: center;
+    }
+    .footer_container{
+        flex-direction: column;
+        padding: 24px 24px;
+    }
+    .form{
+        width: 100%;
+    }
+    .contact__links{
+        align-self: center;
+        text-align: center;
+    }
+    .contact__form{
+        width: 100%;
+    }
+
+}
+@media (min-width: 426px) and (max-width: 1023px){
+    .logo__links{
+        flex-direction: column;
+    }
+    .footer_container{
+        padding: 24px 20px;
+    }
 }
