@@ -1,6 +1,19 @@
 .products__items__img{
     margin-bottom: 24px;
 }
+.products__items__img {
+    margin-bottom: 24px;
+    position: relative;
+  }
+  
+  .products__items__icons__container {
+    position: absolute;
+    color: #fff;
+    top: 0;
+    right: 0;
+    padding:8px;
+  }
+  
 .products__more{
     padding: 16px;
     background: #2A7AE4;
@@ -12,4 +25,13 @@
     background-color: #ffffff;
     color: #2A7AE4;
     border: 1px solid #2A7AE4;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+
+    margin-right: 8px;
+    color: white;
+}
+.fa-solid:hover{
+    cursor: pointer;
 }
