@@ -31,3 +31,27 @@
         color: #464646;
     }
 }
+@media (max-width: 425px){
+    .detailed__container{
+        padding: 16px;
+        flex-direction: column;
+    }
+    .detailed__text {
+        padding: 16px;
+        width: auto;
+    }
+    .similarProducts {
+        padding: 12px ;
+    }
+    .products__items__img{
+        margin-bottom: 16px
+    }
+    .detailed__img {
+        height: 198px;
+        width: 400px;
+        object-fit: cover;
+    }
+    .deitaled__title {
+        font-size: 24px;
+    }
+}
