@@ -33,3 +33,12 @@
     width: 100%; 
     padding: 8px 0;
 }
+@media (max-width: 425px) {
+    .add__form {
+        width: 75%;
+    }
+    .header__login {
+        
+        padding: 10px 56px;
+    }
+}
