@@ -26,7 +26,7 @@
     color: #2A7AE4;
     border: 1px solid #2A7AE4;
 }
-.fa-solid, .fas {
+.fa-trash-can, .fa-pen {
     font-weight: 900;
 
     margin-right: 8px;
@@ -34,4 +34,16 @@
 }
 .fa-solid:hover{
     cursor: pointer;
+}
+@media (max-width: 425px){
+    .products {
+        margin: 16px;
+    }
+    .products__type{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .products__more{
+        margin-top: 16px;
+    }
 }
